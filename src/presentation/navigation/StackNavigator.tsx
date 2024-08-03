@@ -16,6 +16,7 @@ export const StackNavigator = () => {
             screenOptions={{
                 headerShown: false,
             }}
+            
         >
             <Stack.Screen name="TakePhoto" component={TakePhotoScreen} />
             <Stack.Screen name="ShowPhotos" component={ShowPhotosScreen} />
